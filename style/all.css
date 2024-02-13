@@ -1,3 +1,342 @@
 @charset "utf-8";
+/* 工具區------------------------------------------------------ */
 
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: Arial, Helvetica, "微軟正黑體"sans-serif;
+}
+
+.bottom {
+    /* vertical-align: bottom; */
+}
+
+.container {
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.ma-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* nav------------------------------------------------ */
+
+.nav-logeimg {
+    display: block;
+    max-height: 100%;
+    height: auto;
+    vertical-align: bottom;
+    margin-right: 12px;
+    padding: 4px;
+}
+
+.navs-justify-content {
+    display: flex;
+    align-items: center;
+    background-color: #DEF0F7;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.navs-loge-imgout, .btn-inside {
+    display: inline-block;
+    padding-right: 4rem;
+    vertical-align: middle;
+}
+
+.navs, .btn-inside {
+    display: flex;
+    justify-content: space-between;
+    /*分散對齊*/
+}
+
+.nav, .btns-title, .nav-footer {
+    /* background-color: aqua; */
+    margin-right: 2rem;
+    list-style-type: none;
+    display: block;
+}
+
+.nav-titles, .logs, .btns-title {
+    display: block;
+    border-bottom: solid 2px;
+    border-bottom-color: #3776ca;
+}
+
+.nav-title {
+    text-align: left;
+    /*文字靠左對齊*/
+    visibility: hidden;
+    /*內容隱藏*/
+}
+
+.nav-title-link {
+    text-decoration: none;
+}
+
+
+.nav-log-btn {
+    text-align: center;
+    visibility: hidden;
+    /*內容隱藏 */
+    text-decoration: none;
+}
+
+.nav-foot {
+    margin-left: 32rem;
+}
+
+.nav-titles:hover{
+    visibility: visible;
+    border-bottom: solid 2px;
+    border-bottom-color: #e1971d;
+}
+
+.btns-title:hover{
+    border-bottom: solid 2px;
+    border-bottom-color: #e1971d;
+}
+
+/* aside------------------------------------------- */
+
+.aside{
+    z-index: 10;
+    position: fixed;
+    right: 1rem;
+    bottom: 15rem;
+}
+
+.aside-link {
+    color: #239ACC;
+    text-decoration: .3s;
+}
+
+.aside-link:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.aside-link-top {
+    font-size: 3rem;
+}
+
+/* footer------------------------------------ */
+
+
+.nav-footer-btns {
+    display: flex;
+    padding: 1rem 5rem 1rem 5rem;
+    background-color: #DEF0F7;
+    text-align: center;
+    width: 100%
+}
+
+.footer-foot {
+    background-color: #DEF0F7;
+    text-align: center;
+}
+
+.btnout {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*font-size ------------------------------------------------------------- */
+
+/* 內頁主題大標---------------*/.font-big-title{font-size: 40px;}
+/* 內頁主題中標------------*/.font-middle-title{font-size:32px}
+/* 內頁主題小標--------*/.font-middle-title{font-size:24px}
+/* NavBar按鈕-------*/.font-navbar-title{font-size:24px}
+/* 區塊標題應用---*/.font-section-title{font-size:20px}
+/* NavBarTop按鈕 */.font-navtop-title{font-size:18px}
+/* 內文資訊應用*/.font-write-title{font-size:16px}
+/* 條列式內文 */.font-list-title{font-size:16px}
+/* 最小字級 */.font-last-title{font-size:14px}
+
+/*Color System  Guideline ------------------------------------------------------------- */
+/* 清晰藍 */.clearblue{color: #239ACC;}
+/* 知性藍 */.nousblue {color: #3776ca;}
+/* 青墨藍 */.inkblue{color: #233C61;}
+/* 墨筆黑 */.penblack{color:#141414;}
+/* 明亮白 */.white{color: #fff;}
+/* 導覽列藍 */.navb{color: #BDE3FF;}
+/* 提示橘 */.tip-orange{color: #FF971D;}
+/* 按鈕輔助色 */.white{color: #0DAC60;}
+/* 輔助灰 */.gray{color: #D9D9D9;}
+/* 配色提醒紅 */.red{color: #F43535;}
+
+/* img縮小---------------------------------------------------------------------------- */
+
+/* .frame {  
+    height: 160px; /*can be anything*/
+    /* /width: 160px; /*can be anything*/
+/*    position: relative;
+}  */
+
+    /*  
+img {  
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+} */
+
+
+.frame{
+    height: 160px; /*can be anything*/
+    width: 160px; /*can be anything*/
+    position: relative;
+}
+
+.photo{
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    /* position: absolute; */
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+
+}
+
+
+
+/* 圖片置中------------------------------------------------- */
+
+.box{
+    height:200px;
+    width:300px;
+    background:pink;
+    margin:30px auto;
+    font-size:0;
+}
+.box:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+}
+.text{
+    display: inline-block;
+    font-size:16px;
+    vertical-align: middle;
+}
+
+/* 分隔線段設計--------------------------------------------- */
+
+/* 漸變 color1 - color2 - color1 */
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+
+/* 透明漸變 - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+
+/* 雙線 */
+
+hr.style-three {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+
+/* 單線陰影 */
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+
+/* 雲朵状 */
+
+hr.style-five {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+
+/* 内嵌 */
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+
+/* 暈状 */
+
+hr.style-seven {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+
+/* 文字插入式 */
+
+hr.style-eight {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "請輸入文字";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
 

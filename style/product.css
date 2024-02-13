@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* 段落文案直立分格線 */
+.separator::before {
+    content: "";
+    border-left: 1px solid #ccc;
+    height: 100%;
+    /* position: absolute; */
+    left: 0;
+}
+
+.fontline {
+    box-sizing: border-box; 
+    padding: 10px; 
+    border-left: 5px solid rgb(240, 173, 78);
+    font-size: 16px;
+}
