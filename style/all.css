@@ -15,20 +15,29 @@ html {
     margin-right: auto;
 }
 
+.container{
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.container-navtop{
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
 /* nav------------------------------------------------ */
 
 .navs-justify-content {
     background-color: #BDE3FF;
     display: flex;
     /* align-items: center; */
-    vertical-align: bottom;
+    vertical-align:bottom;
 }
 
 .nav-loge-img {
     display: block;
     max-height: 100%;
     height: auto;
-    vertical-align: bottom;
 }
 
 .nav-head {
@@ -76,10 +85,10 @@ html {
 .nav-titles {
     display: grid;
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 12px;
     padding-bottom: 5px;
-    padding-left: 25px;
     color: #141414;
     border-bottom: solid 2px;
     border-bottom-color: #3776ca;
@@ -113,9 +122,9 @@ html {
 /*導覽列-登入------------------------------------------- */
 
 
-.nav-foot {
-    /* background-color: pink; */
-}
+/* .nav-foot{
+    background-color: pink;
+} */
 
 .logs{
     width: 100px;
@@ -126,10 +135,11 @@ html {
     text-decoration: none;
     padding-top: 12px;
     padding-bottom: 6px;
-    padding-left: 25px;
+    padding-left:35px ;
     border-bottom: solid 2px;
     border-bottom-color: #3776ca;
     color: #141414;
+    text-align: justify;
 }
 
 .logs-title{
@@ -252,10 +262,53 @@ html {
     font-size: 3rem;
 }
 
+/* nav-top------------------------------------- */
+
+.nav-top{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.nav-top-css{
+display: block;
+/* background-color: #0DAC60; */
+}
+
+.nav-top-css-itme{
+    /* background-color:rgba(217, 217, 217, .3); */
+    display: flex;
+    vertical-align: bottom;
+    text-align: center;
+}
 
 
 
+.link{
+    justify-content: space-between;
+    padding-top:10px;
+    padding-bottom:15px;
+    margin-left:.5rem;
+    padding-left:.5rem;
+    padding-right:.5rem;
+    /* background-color: #F43535; */
 
+}
+
+.link-a{
+    /* background-color: aqua; */
+    color: #141414;
+    margin-bottom:20px;
+    padding-bottom:5px ;
+    text-align: center;
+    text-decoration: none;
+    padding-left:1rem;
+    padding-right:1rem;
+    font-size: 14px;
+}
+
+.link-a:hover {
+    border-bottom: solid 2px;
+    border-bottom-color: #e1971d;
+}
 
 
 
@@ -263,10 +316,10 @@ html {
 
 /* 內頁主題大標---------------*/.font-big-title{font-size: 40px;}
 /* 內頁主題中標------------*/.font-middle-title{font-size:32px}
-/* 內頁主題小標--------*/.font-middle-title{font-size:24px}
+/* 內頁主題小標--------*/.font-small-title{font-size:24px}
 /* NavBar按鈕-------*/.font-navbar-title{font-size:24px}
 /* 區塊標題應用---*/.font-section-title{font-size:20px}
-/* NavBarTop按鈕 */.font-navtop-title{font-size:18px}
+/* NavBarTop按鈕 */.font-navtop-title{font-size:14px}
 /* 內文資訊應用*/.font-write-title{font-size:16px}
 /* 條列式內文 */.font-list-title{font-size:16px}
 /* 最小字級 */.font-last-title{font-size:14px}
@@ -280,7 +333,7 @@ html {
 /* 導覽列藍 */.navb{color: #BDE3FF;}
 /* 提示橘 */.tip-orange{color: #FF971D;}
 /* 按鈕輔助色 */.white{color: #0DAC60;}
-/* 輔助灰 */.gray{color: #D9D9D9;}
+/* 輔助灰 */.gray{color: rgb(217, 217, 217);}
 /* 配色提醒紅 */.red{color: #F43535;}
 /* #b3976b */
 /* #2ba083; */

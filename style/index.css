@@ -27,7 +27,6 @@ html {
     display: block;
     max-height: 100%;
     height: auto;
-    vertical-align: bottom;
 }
 
 .nav-head {
@@ -78,7 +77,6 @@ html {
     justify-content: space-between;
     padding-top: 12px;
     padding-bottom: 5px;
-    padding-left: 25px;
     color: #141414;
     border-bottom: solid 2px;
     border-bottom-color: #3776ca;
@@ -112,24 +110,26 @@ html {
 /*導覽列-登入------------------------------------------- */
 
 
-.nav-foot {
+/* .nav-foot {
     /* background-color: pink; */
-}
+
 
 .logs{
     width: 100px;
 }
 
-.logs-titles {
-    display: block;
+.nav-titles {
+    display: grid;
     text-decoration: none;
+    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 12px;
-    padding-bottom: 6px;
-    padding-left: 25px;
+    padding-bottom: 5px;
+    color: #141414;
     border-bottom: solid 2px;
     border-bottom-color: #3776ca;
-    color: #141414;
 }
+
 
 .logs-title{
     display: block;
