@@ -222,13 +222,15 @@ html {
     margin-left:10px;
 }
 
-
-
 .btns-title:hover {
     border-bottom: solid 2px;
     border-bottom-color: #e1971d;
 }
 
+.btns-title-a{
+    text-decoration: none;
+    color: #141414;
+}
 
 
 
