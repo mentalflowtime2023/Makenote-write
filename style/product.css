@@ -1,17 +1,130 @@
 @charset "utf-8";
+/* 工具區------------------------------------------------------ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-pro {
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+/* 切版------------------------------------------------------ */
+
+
+.pro-img .pro-img-css {
+    position: absolute;
+    /* margin-top: 20px; */
+    /* margin-left: 400px; */
+    top: 95px;
+    left: 400px;
+    width: 500px;
+    height: auto;
+}
+
+
+
+.but-left-css {
+    z-index: 10;
+    position: absolute;
+    left: 17rem;
+    bottom: 20rem;
+}
+
+.but-right-css {
+    z-index: 10;
+    position: absolute;
+    left: 61rem;
+    bottom: 20rem;
+}
+
+
+.but {
+    color: #239ACC;
+    text-decoration: .3s;
+}
+
+.but:hover {
+    color: rgba(0, 0, 0, .5);
+}
+
+.but {
+    font-size: 3rem;
+}
+
+/* ---------------------------- */
+
+.btns {
+    display: flex;
+    background-position: center;
+    word-wrap: break-word;
+    /* background-color: #239ACC; */
+}
+
+
+.btnup {
+    position: relative;
+    display: flex;
+    left: -30px;
+    top: -32px;
+    right: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #2c7e2c; */
+
+}
+
+.btndoun {
+    position: absolute;
+    display: flex;
+    left: -42px;
+    top: 59px;
+    right: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #b11f4f; */
+}
+
+.btn-pro {
+    margin-top: 391px;
+    margin-bottom: 18px;
+    margin-right: 17px;
+    margin-left: 39px;
+    background-color: aqua
+}
+
+
+/* ------------------------------------------------------ */
 
 /* 段落文案直立分格線 */
-.separator::before {
-    content: "";
-    border-left: 1px solid #ccc;
-    height: 100%;
-    /* position: absolute; */
-    left: 0;
-}
+    .separator::before {
+        content: "";
+        border-left: 1px solid #ccc;
+        height: 100%;
+        /* position: absolute; */
+        left: 0;
+    }
 
-.fontline {
-    box-sizing: border-box; 
-    padding: 10px; 
-    border-left: 5px solid rgb(240, 173, 78);
-    font-size: 16px;
-}
+    .fontline {
+        box-sizing: border-box;
+        padding: 10px;
+        border-left: 5px solid rgb(240, 173, 78);
+        font-size: 16px;
+    }

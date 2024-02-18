@@ -27,7 +27,6 @@ html {
     display: block;
     max-height: 100%;
     height: auto;
-    vertical-align: bottom;
 }
 
 .nav-head {
@@ -164,9 +163,6 @@ html {
 .nav-foot:hover ul {
     display: block;
 } 
-
-
-
 
 
 .logs-titles:hover{
