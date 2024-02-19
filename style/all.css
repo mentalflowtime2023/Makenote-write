@@ -153,10 +153,6 @@ html {
     margin-top: 8px;
     margin-bottom: 2px;
 }
-
-
-
-
 .nav-log-btn{
     background-color:#D9D9D9;
     margin-top: 20px;
@@ -177,10 +173,6 @@ html {
     display: block;
 } 
 
-
-
-
-
 .logs-titles:hover{
     border-bottom: solid 6px;
     border-bottom-color:#e1971d;
@@ -188,13 +180,13 @@ html {
 
 /* foot------------------------------------------- */
 
-
 .nav-footer {
     background-color:#BDE3FF;
     list-style-type: none;
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 40px;
 }
 
 .nav-footer-btn-out{

@@ -20,33 +20,61 @@ html {
     box-sizing: border-box;
 }
 
+
 /* 切版------------------------------------------------------ */
+
+.pro-imgs{
+margin-top: 150px;
+margin-left: 250px;
+top: 100px;
+left: 250px;
+width: 700px;
+height: auto;
+} 
 
 
 .pro-img .pro-img-css {
     position: absolute;
-    /* margin-top: 20px; */
-    /* margin-left: 400px; */
-    top: 95px;
-    left: 400px;
-    width: 500px;
+    top: 100px;
+    left: 250px;
+    width: 800px;
     height: auto;
+    z-index: -20px;
+} 
+
+.pro-head{
+    background-color: rgb(159, 130, 207);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.but-between{
+    background-color: rgb(72, 111, 185);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-
 .but-left-css {
+    justify-content:space-between;
     z-index: 10;
-    position: absolute;
-    left: 17rem;
+    /* position: relative; */
+    left: 20rem;
     bottom: 20rem;
+    background-color: black;
 }
 
 .but-right-css {
+    justify-content:space-between;
     z-index: 10;
-    position: absolute;
-    left: 61rem;
+    /* position: absolute; */
+    left: 20rem;
     bottom: 20rem;
+    background-color: black;
 }
 
 
@@ -76,9 +104,9 @@ html {
 .btnup {
     position: relative;
     display: flex;
-    left: -30px;
-    top: -32px;
-    right: 5px;
+    left: -189px;
+    top: -35px;
+    /* align-items: center; */
     margin-right: auto;
     margin-left: auto;
     flex-direction: row;
@@ -92,9 +120,11 @@ html {
 .btndoun {
     position: absolute;
     display: flex;
-    left: -42px;
-    top: 59px;
-    right: 5px;
+    left: 300px;
+    top: 200px;
+    /* align-items: center; */
+    margin-right: auto;
+    margin-left: auto;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -103,28 +133,62 @@ html {
 }
 
 .btn-pro {
+    max-width: auto;
+    width: 100px;
     margin-top: 391px;
     margin-bottom: 18px;
     margin-right: 17px;
     margin-left: 39px;
     background-color: aqua
 }
+/* ------------------------------------------------------ */
+.positiont-word1-css{
+max-width: 50%;
+padding: 80px 0px 40px;
+}
 
+.positiont-fram-imgcss{
+    display: flex;
+}
+
+.positiont-word2-2-css,
+.positiont-word2-3-css{
+    max-width: 50%;
+    padding: 80px 0px 80px;
+}
+.positiont-word2-4-css{
+    max-width: 80%;
+    padding:80px;    
+    /* background-color: #239ACC; */
+    }
 
 /* ------------------------------------------------------ */
 
 /* 段落文案直立分格線 */
-    .separator::before {
-        content: "";
+
+    /* .separator::before {
+        content: "888";
         border-left: 1px solid #ccc;
         height: 100%;
         /* position: absolute; */
-        left: 0;
-    }
+        /* left: 0; */
 
     .fontline {
         box-sizing: border-box;
         padding: 10px;
-        border-left: 5px solid rgb(240, 173, 78);
+        border-left: 5px solid  #3776ca;
         font-size: 16px;
+    }
+/* ------------------------------------------------------ */
+    .positiont-word1,.positiont-word3{
+        padding-left: 400px;
+    }
+    .pro-word1-title,.pro-word2-title,.pro-word3-title{
+        font-size:24px;
+        color: #3776ca;
+    }
+
+    .pro-word1-content,.pro-word2-content,.pro-word3-content{
+        font-size:16px;
+        color: #141414;;
     }
