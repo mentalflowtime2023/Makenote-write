@@ -30,10 +30,8 @@ html {
 .navs-justify-content {
     background-color: #BDE3FF;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* vertical-align:bottom; */
-    justify-content: space-around
+    /* align-items: center; */
+    vertical-align:bottom;
 }
 
 .nav-loge-img {
@@ -41,23 +39,18 @@ html {
     max-height: 100%;
     width: auto;
     height: auto;
-    /* background-color: #914e4e; */
 }
 
 .nav-head {
     /* background-color: blueviolet; */
-    /* padding-right:40px; */
-    /* padding-left:100px; */
-    /* margin-left:100px; */
+    left: 0;
 }
 
 .nav-body {
     /* background-color: chartreuse; */
-    /* margin-left: 90px; */
-    /* margin-right:200px;  */
-
-
-} 
+    margin-left: 80px;
+    margin-right:200px;
+}
 
 
 .nav-head.nav-body.nav-foot {
@@ -76,10 +69,9 @@ html {
 }
 
 .nav{
-    width: 135px;
+    width: 120px;
     /* background-color: crimson; */
-    /* margin-left:1rem;
-    margin-right:1rem; */
+    margin-left:1rem;
     /* text-align: center; */
 }
 
@@ -88,7 +80,6 @@ html {
     /* justify-content: space-between; */
     /* display:block; */
     /* background-color: darkorchid; */
-    margin-right:1rem;
     /* text-align: center; */
 }
 
@@ -126,21 +117,15 @@ html {
 }
 
 .nav-titles:hover{
-    border-bottom: solid 4px;
-    border-bottom-color:#e1971d;
-} 
-
-/* .nav-css:hover{
     border-bottom: solid 6px;
     border-bottom-color:#e1971d;
-}  */
-
+} 
 /*導覽列-登入------------------------------------------- */
 
 
-.nav-foot{
-    /* background-color: pink; */
-    margin-left:100px;}
+/* .nav-foot{
+    background-color: pink;
+} */
 
 .logs{
     width: 100px;
@@ -190,7 +175,7 @@ html {
 
 .logs-titles:hover{
     border-bottom: solid 6px;
-    border-bottom-color:#FF971D;
+    border-bottom-color:#e1971d;
 }
 
 /* foot------------------------------------------- */
@@ -232,7 +217,7 @@ html {
 
 .btns-title:hover {
     border-bottom: solid 2px;
-    border-bottom-color:#FF971D;
+    border-bottom-color: #e1971d;
 }
 
 .btns-title-a{
@@ -275,40 +260,20 @@ html {
 /* nav-top------------------------------------- */
 
 .nav-top{
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 .nav-top-css{
 display: block;
-background-color:rgba(242, 242, 242, 0.8);
-/* background: linear-gradient(135deg, rgba(189,227,255,1) 26%,rgba(189,227,255,0.95) 29%,rgba(255,255,255,0.53) 55%,rgba(255,255,255,0.27) 71%,rgba(255,255,255,0.2) 75%); */
-/* background: linear-gradient(to bottom, rgba(189,227,255,1) 26%,rgba(189,227,255,0.95) 29%,rgba(189, 227, 255, 0.5) 55%,rgba(255, 255, 255, 0.6) 71%,rgba(255, 255, 255, 0.2) 75%);  */
+/* background-color: #0DAC60; */
 }
 
-
-
-
-
-
 .nav-top-css-itme{
-    background-color:rgba(217, 217, 217,.3);
+    /* background-color:rgba(217, 217, 217, .3); */
     display: flex;
     vertical-align: bottom;
     text-align: center;
-    justify-content: center;;
-    align-items: center;
-    
 }
-
-
-/* background-color: rgba(217, 217, 217, .3);
-display: flex;
-vertical-align: bottom;
-text-align: center;
-flex-direction: row;
-flex-wrap: nowrap; */
-/* align-content: center; */
-
 
 
 
@@ -317,33 +282,28 @@ flex-wrap: nowrap; */
     padding-top:10px;
     padding-bottom:15px;
     margin-left:.5rem;
-    padding-left:.4rem;
-    padding-right:.4rem;
+    padding-left:.5rem;
+    padding-right:.5rem;
     /* background-color: #F43535; */
-
 
 }
 
 .link-a{
     /* background-color: aqua; */
     color: #141414;
-    /* margin-bottom:20px; */
+    margin-bottom:20px;
     padding-bottom:5px ;
     text-align: center;
     text-decoration: none;
     padding-left:1rem;
     padding-right:1rem;
     font-size: 14px;
-    border-bottom: solid 2px;
-    border-bottom-color: #3776ca;
 }
 
 .link-a:hover {
     border-bottom: solid 2px;
-    border-bottom-color: #FF971D;
+    border-bottom-color: #e1971d;
 }
-
-
 
 
 
@@ -360,12 +320,12 @@ flex-wrap: nowrap; */
 /* 最小字級 */.font-last-title{font-size:14px}
 
 /*Color System  Guideline ------------------------------------------------------------- */
-/* 清晰藍 */.clearblue{color: rgb(35, 154, 204);}
-/* 知性藍 */.nousblue {color: rgb(55, 118, 202);}
+/* 清晰藍 */.clearblue{color: #239ACC;}
+/* 知性藍 */.nousblue {color: #3776ca;}
 /* 青墨藍 */.inkblue{color: #233C61;}
 /* 墨筆黑 */.penblack{color:#141414;}
-/* 明亮白 */.white{color: rgb(255, 255, 255);}
-/* 導覽列藍 */.navb{color: rgb(189, 227, 255);}
+/* 明亮白 */.white{color: #fff;}
+/* 導覽列藍 */.navb{color: #BDE3FF;}
 /* 提示橘 */.tip-orange{color: #FF971D;}
 /* 按鈕輔助色 */.white{color: #0DAC60;}
 /* 輔助灰 */.gray{color: rgb(217, 217, 217);}

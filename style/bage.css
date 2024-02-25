@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+.container-bage {
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+
+
+.bagefram {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    /* background-color: brown; */
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-a{
+    text-decoration: none;
+    font-size: 24px;
+    /* background-color: blue; */
+    color: #141414;
+}
+
+.btn-bagebtns {
+    display: grid;
+    /* background-color: aqua; */
+}
+
+.bagebtns {
+    display: flex;
+    /* background-color: rgb(92, 92, 177); */
+    background-color: rgb(35, 154, 204,0.6);
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.but-css {
+    display: flex;
+    /* background-color: aqua; */
+    border-radius: 50px;
+    justify-content: left;
+    align-items: left;
+    padding: 15px;
+    /* font-size: 2.5rem; */
+}
+
+h2 {
+    padding: 15px;
+    /* margin: 15px; */
+    /* background-color: chartreuse; */
+}
+
+.up {
+    /* background-color: rgb(226, 192, 43); */
+    margin: 15px;
+}
+
+.down {
+    /* background-color: rgb(43, 146, 150); */
+    margin: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
