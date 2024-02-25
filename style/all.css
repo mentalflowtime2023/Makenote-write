@@ -127,7 +127,7 @@ html {
 
 .nav-titles:hover{
     border-bottom: solid 4px;
-    border-bottom-color:#e1971d;
+    border-bottom-color:#FF971D;
 } 
 
 /* .nav-css:hover{
@@ -189,7 +189,7 @@ html {
 } 
 
 .logs-titles:hover{
-    border-bottom: solid 6px;
+    border-bottom: solid 4px;
     border-bottom-color:#FF971D;
 }
 
