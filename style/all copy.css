@@ -1,6 +1,21 @@
 @charset "utf-8";
 
+/* 外掛區------------------------------------------------------ */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+  @font-face {
+    /* 自己定義引用時的名稱 */
+    font-family: "Open Huninn";
+    /* 把字體引用進來，3個都要 */
+     src: url("../font/jf-openhuninn.woff") format("woff"),
+      url("./font/jf-openhuninn.ttf") format("truetype"),
+      url("./font/jf-openhuninn.ttf") format("embedded-opentype");
+  }
+
 /* 工具區------------------------------------------------------ */
+
 
 html {
     scroll-behavior: smooth;
