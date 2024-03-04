@@ -35,7 +35,7 @@ display: flex;
     /* background-color: blue; */
 }
 
-.list-area1,.list-area3{
+.list-area1,.list-area3,.list-area2{
     margin-right: 80px;
     /* background-color: blueviolet; */
     width: 300px;
