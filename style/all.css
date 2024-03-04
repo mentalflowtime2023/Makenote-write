@@ -2,14 +2,12 @@
 
 /* 工具區------------------------------------------------------ */
 
-
-
 html {
     scroll-behavior: smooth;
 }
 
 .body {
-    font-family: "Open Huninn",Arial, Helvetica, "微軟正黑體",sans-serif;
+    font-family: "Open Huninn", Arial, Helvetica, "微軟正黑體", sans-serif;
 }
 
 .mx-auto {
@@ -17,12 +15,12 @@ html {
     margin-right: auto;
 }
 
-.container{
+.container {
     max-width: 1200px;
     box-sizing: border-box;
 }
 
-.container-navtop{
+.container-navtop {
     max-width: 600px;
     box-sizing: border-box;
 }
@@ -34,7 +32,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* vertical-align:bottom; */
     justify-content: space-around
 }
 
@@ -43,24 +40,7 @@ html {
     max-height: 100%;
     width: auto;
     height: auto;
-    /* background-color: #914e4e; */
 }
-
-.nav-head {
-    /* background-color: blueviolet; */
-    /* padding-right:40px; */
-    /* padding-left:100px; */
-    /* margin-left:100px; */
-}
-
-.nav-body {
-    /* background-color: chartreuse; */
-    /* margin-left: 90px; */
-    /* margin-right:200px;  */
-
-
-} 
-
 
 .nav-head.nav-body.nav-foot {
     display: flex;
@@ -72,26 +52,17 @@ html {
 
 .navs {
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
     text-align: center;
 }
 
-.nav{
+.nav {
     width: 135px;
-    /* background-color: crimson; */
-    /* margin-left:1rem;
-    margin-right:1rem; */
-    /* text-align: center; */
 }
 
 .nav-css {
     text-decoration: none;
-    /* justify-content: space-between; */
-    /* display:block; */
-    /* background-color: darkorchid; */
-    margin-right:1rem;
-    /* text-align: center; */
+    margin-right: 1rem;
 }
 
 .nav-titles {
@@ -106,7 +77,6 @@ html {
     border-bottom-color: #3776ca;
 }
 
-
 .nav ul {
     display: none;
     position: absolute;
@@ -118,7 +88,7 @@ html {
 
 .nav-title-link {
     display: inline-block;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
     text-decoration: none;
     text-align: left;
     width: 120px;
@@ -127,24 +97,18 @@ html {
     padding-bottom: 2px;
 }
 
-.nav-titles:hover{
+.nav-titles:hover {
     border-bottom: solid 4px;
-    border-bottom-color:#FF971D;
-} 
-
-/* .nav-css:hover{
-    border-bottom: solid 6px;
-    border-bottom-color:#e1971d;
-}  */
+    border-bottom-color: #FF971D;
+}
 
 /*導覽列-登入------------------------------------------- */
 
+.nav-foot {
+    margin-left: 100px;
+}
 
-.nav-foot{
-    /* background-color: pink; */
-    margin-left:100px;}
-
-.logs{
+.logs {
     width: 100px;
 }
 
@@ -153,25 +117,26 @@ html {
     text-decoration: none;
     padding-top: 12px;
     padding-bottom: 6px;
-    padding-left:35px ;
+    padding-left: 35px;
     border-bottom: solid 2px;
     border-bottom-color: #3776ca;
     color: #141414;
     text-align: justify;
 }
 
-.logs-title{
+.logs-title {
     display: block;
     width: 100px;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
     text-decoration: none;
     text-align: left;
     color: #141414;
     margin-top: 8px;
     margin-bottom: 2px;
 }
-.nav-log-btn{
-    background-color:#D9D9D9;
+
+.nav-log-btn {
+    background-color: #D9D9D9;
     margin-top: 20px;
     margin-bottom: 10px;
     color: #141414;
@@ -183,22 +148,22 @@ html {
     display: none;
     position: absolute;
     text-decoration: none;
-    background-color:#D9D9D9;
+    background-color: #D9D9D9;
 }
 
 .nav-foot:hover ul {
     display: block;
-} 
+}
 
-.logs-titles:hover{
+.logs-titles:hover {
     border-bottom: solid 4px;
-    border-bottom-color:#FF971D;
+    border-bottom-color: #FF971D;
 }
 
 /* foot------------------------------------------- */
 
 .nav-footer {
-    background-color:#BDE3FF;
+    background-color: #BDE3FF;
     list-style-type: none;
     display: flex;
     padding-top: 10px;
@@ -206,47 +171,42 @@ html {
     margin-top: 40px;
 }
 
-.nav-footer-btn-out{
+.nav-footer-btn-out {
     display: grid;
     max-width: 100%;
 }
 
-
-.nav-footer-btn-inside{
+.nav-footer-btn-inside {
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left:10px;
-    /* background-color: #e1971d; */
-
+    margin-left: 10px;
 }
 
-.btns-title{
+.btns-title {
     width: 120px;
     text-align: center;
     justify-content: center;
     padding: 5px;
     color: #141414;
     border-bottom: solid 2px;
-    border-bottom-color:#3776ca;
-    margin-left:10px;
+    border-bottom-color: #3776ca;
+    margin-left: 10px;
 }
 
 .btns-title:hover {
     border-bottom: solid 2px;
-    border-bottom-color:#FF971D;
+    border-bottom-color: #FF971D;
 }
 
-.btns-title-a{
+.btns-title-a {
     text-decoration: none;
     color: #141414;
 }
 
-
-
 /* footer------------------------------------------- */
 .footer-foot {
-    background-color:#BDE3FF;
+    background-color: #BDE3FF;
     text-align: center;
 }
 
@@ -276,65 +236,44 @@ html {
 
 /* nav-top------------------------------------- */
 
-.nav-top{
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-.nav-top-css{
-display: block;
-background-color:rgba(242, 242, 242, 0.8);
-/* background: linear-gradient(135deg, rgba(189,227,255,1) 26%,rgba(189,227,255,0.95) 29%,rgba(255,255,255,0.53) 55%,rgba(255,255,255,0.27) 71%,rgba(255,255,255,0.2) 75%); */
-/* background: linear-gradient(to bottom, rgba(189,227,255,1) 26%,rgba(189,227,255,0.95) 29%,rgba(189, 227, 255, 0.5) 55%,rgba(255, 255, 255, 0.6) 71%,rgba(255, 255, 255, 0.2) 75%);  */
+.nav-top {
+    margin-top: 15px;
+    margin-bottom:10px;
 }
 
+.nav-top-css {
+    display: block;
+}
 
-
-
-
-
-.nav-top-css-itme{
-    background-color:rgba(217, 217, 217,.3);
+.nav-top-css-itme {
+    background-color: rgba(217, 217, 217, .3);
     display: flex;
     vertical-align: bottom;
     text-align: center;
-    justify-content: center;;
+    justify-content: center;
     align-items: center;
-    
 }
 
 
-/* background-color: rgba(217, 217, 217, .3);
-display: flex;
-vertical-align: bottom;
-text-align: center;
-flex-direction: row;
-flex-wrap: nowrap; */
-/* align-content: center; */
 
 
 
-
-.link{
+.link {
     justify-content: space-between;
-    padding-top:10px;
-    padding-bottom:15px;
-    margin-left:.5rem;
-    padding-left:.4rem;
-    padding-right:.4rem;
-    /* background-color: #F43535; */
-
-
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: .5rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
 }
 
-.link-a{
-    /* background-color: aqua; */
+.link-a {
     color: #141414;
-    /* margin-bottom:20px; */
-    padding-bottom:5px ;
+    padding-bottom: 5px;
     text-align: center;
     text-decoration: none;
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 14px;
     border-bottom: solid 2px;
     border-bottom-color: #3776ca;
@@ -345,81 +284,130 @@ flex-wrap: nowrap; */
     border-bottom-color: #FF971D;
 }
 
-
-
-
-
 /*font-size ------------------------------------------------------------- */
 
-/* 內頁主題大標---------------*/.font-big-title{font-size: 40px;}
-/* 內頁主題中標------------*/.font-middle-title{font-size:32px}
-/* 內頁主題小標--------*/.font-small-title{font-size:24px}
-/* NavBar按鈕-------*/.font-navbar-title{font-size:24px}
-/* 區塊標題應用---*/.font-section-title{font-size:20px}
-/* NavBarTop按鈕 */.font-navtop-title{font-size:14px}
-/* 內文資訊應用*/.font-write-title{font-size:16px}
-/* 條列式內文 */.font-list-title{font-size:16px}
-/* 最小字級 */.font-last-title{font-size:14px}
+/* 內頁主題大標---------------*/
+.font-big-title {
+    font-size: 40px;
+}
+
+/* 內頁主題中標------------*/
+.font-middle-title {
+    font-size: 32px
+}
+
+/* 內頁主題小標--------*/
+.font-small-title {
+    font-size: 24px
+}
+
+/* NavBar按鈕-------*/
+.font-navbar-title {
+    font-size: 24px
+}
+
+/* 區塊標題應用---*/
+.font-section-title {
+    font-size: 20px
+}
+
+/* NavBarTop按鈕 */
+.font-navtop-title {
+    font-size: 14px
+}
+
+/* 內文資訊應用*/
+.font-write-title {
+    font-size: 16px
+}
+
+/* 條列式內文 */
+.font-list-title {
+    font-size: 16px
+}
+
+/* 最小字級 */
+.font-last-title {
+    font-size: 14px
+}
 
 /*Color System  Guideline ------------------------------------------------------------- */
-/* 清晰藍 */.clearblue{color: rgb(35, 154, 204);}
-/* 知性藍 */.nousblue {color: rgb(55, 118, 202);}
-/* 青墨藍 */.inkblue{color: #233C61;}
-/* 墨筆黑 */.penblack{color:#141414;}
-/* 明亮白 */.white{color: rgb(255, 255, 255);}
-/* 導覽列藍 */.navb{color: rgb(189, 227, 255);}
-/* 提示橘 */.tip-orange{color: #FF971D;}
-/* 按鈕輔助色 */.white{color: #0DAC60;}
-/* 輔助灰 */.gray{color: rgb(217, 217, 217);}
-/* 配色提醒紅 */.red{color: #F43535;}
+/* 清晰藍 */
+.clearblue {
+    color: rgb(35, 154, 204);
+}
+
+/* 知性藍 */
+.nousblue {
+    color: rgb(55, 118, 202);
+}
+
+/* 青墨藍 */
+.inkblue {
+    color: #233C61;
+}
+
+/* 墨筆黑 */
+.penblack {
+    color: #141414;
+}
+
+/* 明亮白 */
+.white {
+    color: rgb(255, 255, 255);
+}
+
+/* 導覽列藍 */
+.navb {
+    color: rgb(189, 227, 255);
+}
+
+/* 提示橘 */
+.tip-orange {
+    color: #FF971D;
+}
+
+/* 按鈕輔助色 */
+.white {
+    color: #0DAC60;
+}
+
+/* 輔助灰 */
+.gray {
+    color: rgb(217, 217, 217);
+}
+
+/* 配色提醒紅 */
+.red {
+    color: #F43535;
+}
+
 /* #b3976b */
 /* #2ba083; */
-
-/* img縮小---------------------------------------------------------------------------- */
-
-/* .frame {  
-    height: 160px; /*can be anything*/
-    /* /width: 160px; /*can be anything*/
-/*    position: relative;
-}  */
-
-    /*  
-img {  
-    max-height: 100%;  
-    max-width: 100%; 
-    width: auto;
-    height: auto;
-    position: absolute;  
-    top: 0;  
-    bottom: 0;  
-    left: 0;  
-    right: 0;  
-    margin: auto;
-} */
-
-
 
 
 
 /* 圖片置中------------------------------------------------- */
 
-.box{
-    height:200px;
-    width:300px;
-    background:pink;
-    margin:30px auto;
-    font-size:0;
+.box {
+    height: 200px;
+    width: 300px;
+    background: pink;
+    margin: 30px auto;
+    font-size: 0;
 }
-.box:before{
+
+.box:before {
     content: '';
     display: inline-block;
     vertical-align: middle;
     width: 0;
     height: 100%;
 }
-.text{
+
+.text {
     display: inline-block;
-    font-size:16px;
+    font-size: 16px;
     vertical-align: middle;
 }
 
@@ -440,7 +428,7 @@ hr.style-one {
 hr.style-two {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 
@@ -452,75 +440,4 @@ hr.style-three {
     background: #999;
 }
 
-
-/* 單線陰影 */
-
-hr.style-four {
-    height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
-}
-
-
-/* 雲朵状 */
-
-hr.style-five {
-    border: 0;
-    height: 0; /* Firefox... */
-    box-shadow: 0 0 10px 1px black;
-}
-hr.style-five:after {  /* Not really supposed to work, but does */
-    content: "\00a0";  /* Prevent margin collapse */
-}
-
-
-/* 内嵌 */
-
-hr.style-six {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0,0,0,0.1);
-    border-bottom: 1px solid rgba(255,255,255,0.3);
-}
-
-
-/* 暈状 */
-
-hr.style-seven {
-    height: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
-}
-hr.style-seven:before { 
-    display: block;
-    content: "";
-    height: 30px;
-    margin-top: -31px;
-    border-style: solid;
-    border-color: black;
-    border-width: 0 0 1px 0;
-    border-radius: 20px;
-}
-
-
-/* 文字插入式 */
-
-hr.style-eight {
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-}
-hr.style-eight:after {
-    content: "請輸入文字";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
-}
 

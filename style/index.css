@@ -23,13 +23,11 @@ html {
 /* 工具區------------------------------------------------------ */
 
 .index-interhead {
-    /* background-color: rgb(85, 85, 158); */
     margin-top: 2rem;
 }
 
 .index-interhead-up {
     max-width: 1200px;
-    /* background-color: rgb(54, 119, 119); */
     justify-content: center;
 }
 
@@ -37,7 +35,6 @@ html {
     text-align: center;
     font-size: 40px;
     margin: 2rem;
-    /* background-color: rgb(94, 131, 131); */
 }
 
 .index-middle-title {
@@ -54,7 +51,6 @@ html {
 
 
 .loginlink-css {
-    /* background-color: brown; */
     width: 100px;
     height: 40px;
     position: relative;
@@ -89,54 +85,10 @@ html {
 .toto {
     width: 700px;
     height: auto;
-    /* background-color: #233C61; */
     margin-top: 78px;
     margin-bottom: 60PX;
     margin-left: 272px;
     margin-right: 304px;
-}
-
-/* ---------圖片無解------------------- */
-.frame-css {
-    display: block;
-    margin: auto
-    /* position: relative;
-    width:40% */
-}
-
-.frame-img {
-    padding-left: auto;
-    padding-right: auto;
-    vertical-align: baseline;
-    align-items: center;
-    /* background-color: aqua; */
-}
-
-.frame-img-desk {
-    position: absolute;
-    width: 500px;
-    height: auto;
-    background-color: blue;
-    align-items: center;
-}
-
-.frame-img-iPad {
-    position: absolute;
-    width: 400px;
-    height: auto;
-    right: 0;
-    left: 280px;
-    top: 160px;
-    background-color: rgb(47, 179, 189);
-
-}
-
-.frame-img-iPhone {
-    position: absolute;
-    top: 120px;
-    width: 150px;
-    height: auto;
-    background-color: rgb(180, 190, 31);
 }
 
 /* ---------------------------- */
@@ -150,13 +102,11 @@ html {
 .photo {
     max-height: 70%;
     max-width: 70%;
-    /* position: absolute; */
     margin: auto;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 40px;
     padding-top: 40px;
-    /* background-color: aqua; */
 }
 
 
