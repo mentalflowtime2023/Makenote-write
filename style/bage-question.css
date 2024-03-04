@@ -37,7 +37,7 @@ display: flex;
 
 .list-area1,.list-area3,.list-area2{
     margin-right: 80px;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     width: 300px;
     padding: 5px;
 }
