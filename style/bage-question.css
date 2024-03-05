@@ -25,7 +25,9 @@
 
 .list-area{
 display: flex;
+/* background-color: aquamarine; */
 }
+
 .set-1,.set-2,.set-3{
     justify-content: center;
     margin-left: auto;
@@ -33,7 +35,9 @@ display: flex;
 }
 
 .list-area1,.list-area3{
+    /* margin-right: 80px; */
     width: 300px;
+    /* padding: 5px; */
 }
 .list{
     line-height: 30px;
