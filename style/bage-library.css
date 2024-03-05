@@ -62,13 +62,11 @@ button {
   max-width: 1200px;
   text-align: center;
   margin: 40px auto 0 auto;
-  background-color: #FF971D;
 }
 
 .out{
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(42, 66, 146);
   max-width: 800px;
   margin: 20px auto 0 auto;
   padding: 40px;
@@ -76,7 +74,7 @@ button {
   gap: 40px;
 }
 
-.notelist{
+.notelist-hothot{
   margin-left:auto;
   margin-right:auto;
   background-color:#d9d9d9;
@@ -87,21 +85,49 @@ button {
   border-radius: 40px 40px  40px 40px;
 }
 
-.hotoo{}
+.notelist{
+  margin-left:auto;
+  margin-right:auto;
+  background-color:#d9d9d9;
+  border: solid 4px;
+  border-color:#3776ca;
+  width: 200px;
+  height: 230px;
+  border-radius: 40px 40px  40px 40px;
+}
 
 .hot {
-  background: #FF971D;
-  border-radius: 45px 45px 0px 0px;
+  background:  #3776ca;
+  border-radius: 57px 57px 0px 0px;
   font-size: 24px;
   text-align: center;
   color:rgb(255, 255, 255);
-  border: solid 4px;
-  border-color: #FF971D;
+  border-color: #3776ca;
+  padding-top:14px;
   padding-left: 20px;
   padding-right:20px;
   padding-bottom:10px;
   margin-bottom: 6px;
-  margin-top: -3px;
+  margin-top: -4px;
+  margin-right: -3px;
+  margin-left: -3.5px;
+}
+
+.hothot {
+  background: #FF971D;
+  border-radius: 57px 57px 0px 0px;
+  font-size: 24px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  border-color: #FF971D;
+  padding-top:14px;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-bottom:10px;
+  margin-bottom: 6px;
+  margin-top: -4px;
+  margin-right: -3px;
+  margin-left: -3.5px;
 }
 
 .notes {
@@ -115,7 +141,7 @@ button {
 .note{
   padding:5px;
   margin: 5px;
-  background-color:#b98484;
+  /* background-color:#b98484; */
 }
 
 /* ------------- */

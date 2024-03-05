@@ -1,19 +1,26 @@
 @charset "utf-8";
 
 .container-bage {
-    max-width: 800px;
+    max-width: 900px;
     box-sizing: border-box;
 }
 
 .bagefram {
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 120px;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn-a{
+.flx {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 65px;
+}
+
+.btn-a {
     text-decoration: none;
     font-size: 24px;
     color: #141414;
@@ -25,7 +32,7 @@
 
 .bagebtns {
     display: flex;
-    background-color: rgb(35, 154, 204,0.6);
+    background-color: rgb(35, 154, 204, 0.6);
     border-radius: 10px;
     justify-content: center;
     align-items: center;
