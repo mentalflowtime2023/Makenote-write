@@ -3,14 +3,13 @@
 .middle-title {
     color: rgb(55, 118, 202);
     text-align: center;
-    margin: 20px auto 0 auto;
+    margin: 60px auto 0 auto;
 }
 
 /* ----------------------------- */
 
-.sss {
-    margin: auto;
-    padding: 20px;
+.search-out {
+    padding: 60px;
 }
 
 .search-form {
@@ -99,7 +98,6 @@ button {
 
 .img-fram{
     max-width:1000px;
-    margin-top:50px;
     margin-bottom:100px;
     margin-left: auto;
     margin-right: auto;
