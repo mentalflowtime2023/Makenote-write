@@ -109,9 +109,15 @@ html {
 } */
 
 
-/* .but:hover {
+.but:hover {
     color: rgba(0, 0, 0, .5);
-} */
+}
+
+.mx-high{
+    width: 80px;
+    height: 160px;
+
+}
 
 .pp{
     width: 80px;

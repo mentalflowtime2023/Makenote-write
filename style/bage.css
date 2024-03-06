@@ -20,6 +20,11 @@
     margin-bottom: 65px;
 }
 
+.straight{
+    display: flex;
+    flex-direction: column
+}
+
 .btn-a {
     text-decoration: none;
     font-size: 24px;
