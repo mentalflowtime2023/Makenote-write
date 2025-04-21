@@ -32,7 +32,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around
+    /* justify-content: space-around */
 }
 
 .nav-loge-img {
@@ -238,7 +238,7 @@ html {
 
 .nav-top {
     margin-top: 15px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .nav-top-css {
@@ -459,3 +459,67 @@ hr.style-ff {
     width: 1000px;
 }
 
+.nav-foot {
+    display: none;
+}
+
+.fix{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center
+
+}
+
+/* RWD --------------------------------- */
+
+@media screen and (max-width: 480px) {
+    .navs-justify-content {
+        background-color: #BDE3FF;
+
+    }
+
+    .navs-justify-content {
+        background-color: #BDE3FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around
+    }
+
+    .navs, .logs, .logs-titles {
+        display: none;
+    }
+
+    .mx-auto {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav-foot {
+        display: block;
+        padding: 0;
+        font-size: 2rem;
+        border: none;
+    }
+
+    .nav-footer-btns {
+        display: none;
+    }
+
+    .aside-head {
+        z-index: 10;
+        position: fixed;
+        right: 0.5rem;
+        bottom: 15rem;
+    }
+
+    .nodisplay{
+        display: none;
+    }
+
+    .nav-foot:hover ul {
+        display: none; }
+
+
+}
