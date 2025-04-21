@@ -134,5 +134,46 @@ html {
     text-align: center;
     color: #3776ca;
     text-decoration: none;
-    border-bottom:2px#3776ca solid; 
-    padding-bottom:5px; }
+    border-bottom: 2px#3776ca solid;
+    padding-bottom: 5px;
+}
+
+/* RWD --------------------------------- */
+
+@media screen and (max-width: 480px) {
+    .toto, .photo {
+        justify-content: center;
+        margin-top: 78px;
+        margin-bottom: 60PX;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 80vw;
+    }
+
+    .photo {
+        max-height: 70%;
+        max-width: 70%;
+        width: 800px;
+        padding-top: 0%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .photo-appstore, .photo-google, .photo-microsoft {
+        margin: 8px;
+        /* flex-direction:column; */
+
+    }
+
+    .frame-photo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .index-big-title, .index-middle-title, .index-middle-title {
+        font-size: 5vw;
+    }
+
+}
