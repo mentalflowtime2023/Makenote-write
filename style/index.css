@@ -177,7 +177,10 @@ html {
     }
 
     .navs-outside{
-max-width:100%
-}
+     max-width:100%
+    }
 
+    .photo-microsoft {
+    display: none;
+     }
 }
